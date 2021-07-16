@@ -1,0 +1,12 @@
+Table number: 1 | Start time: 18:13:57 | End time: 18:15:58 | Total time: 2 | Cost: 1.0
+Table number: 2 | Start time: N/A | End time: N/A | Total time: None | Cost: 0.0
+Table number: 3 | Start time: 18:14:06 | End time: N/A | Total time: None | Cost: 0.0
+Table number: 4 | Start time: N/A | End time: N/A | Total time: None | Cost: 0.0
+Table number: 5 | Start time: N/A | End time: N/A | Total time: None | Cost: 0.0
+Table number: 6 | Start time: N/A | End time: N/A | Total time: None | Cost: 0.0
+Table number: 7 | Start time: N/A | End time: N/A | Total time: None | Cost: 0.0
+Table number: 8 | Start time: N/A | End time: N/A | Total time: None | Cost: 0.0
+Table number: 9 | Start time: N/A | End time: N/A | Total time: None | Cost: 0.0
+Table number: 10 | Start time: N/A | End time: N/A | Total time: None | Cost: 0.0
+Table number: 11 | Start time: N/A | End time: N/A | Total time: None | Cost: 0.0
+Table number: 12 | Start time: N/A | End time: N/A | Total time: None | Cost: 0.0

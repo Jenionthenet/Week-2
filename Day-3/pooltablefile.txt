@@ -1,0 +1,12 @@
+Table number: 1 | Start time: 2021-07-16 16:39:41.371176 | End time: None | Total time: None | Cost: 0.0
+Table number: 2 | Start time: None | End time: None | Total time: None | Cost: 0.0
+Table number: 3 | Start time: None | End time: None | Total time: None | Cost: 0.0
+Table number: 4 | Start time: None | End time: None | Total time: None | Cost: 0.0
+Table number: 5 | Start time: None | End time: None | Total time: None | Cost: 0.0
+Table number: 6 | Start time: None | End time: None | Total time: None | Cost: 0.0
+Table number: 7 | Start time: None | End time: None | Total time: None | Cost: 0.0
+Table number: 8 | Start time: None | End time: None | Total time: None | Cost: 0.0
+Table number: 9 | Start time: None | End time: None | Total time: None | Cost: 0.0
+Table number: 10 | Start time: None | End time: None | Total time: None | Cost: 0.0
+Table number: 11 | Start time: None | End time: None | Total time: None | Cost: 0.0
+Table number: 12 | Start time: None | End time: None | Total time: None | Cost: 0.0

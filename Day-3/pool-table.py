@@ -1,8 +1,17 @@
 from datetime import datetime
+from datetime import date 
 from time import strftime
+import math
 from pool_table_class import PoolTable
 
 pool_tables_arr = []
+
+fmt = "%H:%M:%S"
+def format_time(dt):
+    if dt == None:
+        return "N/A"
+    else:
+        return dt.strftime(fmt)
 
 
 def display_pool_tables():
@@ -11,7 +20,7 @@ def display_pool_tables():
         
         if table.is_vacant == False:
             checkout_time = table.start_time.strftime("%b %d %Y %H:%M:%S")
-            print(f"Checkout Time {checkout_time}")
+            print(f"Checkout Time: {checkout_time}")
             
                
 
@@ -24,6 +33,16 @@ def display_checked_out_tables():
     for table in pool_tables_arr:
         if table.is_vacant == False:
             print(f"\n Pool table {table.table_no}")
+
+def save_to_file():
+        day = str(date.today())
+        ext = ".txt"
+        file_name = day + ext
+        with open(file_name, "w") as file:
+            for table in pool_tables_arr:
+               
+                file.write(f"Table number: {table.table_no} | Start time: {format_time(table.start_time)} | End time: {format_time(table.end_time)} | Total time: {table.total_time_min} | Cost: {round(table.total_cost, 2)}\n")  
+                
 
 
 for index in range(1, 13):
@@ -53,6 +72,8 @@ while True:
         ch_out_choice = pool_tables_arr[check_out_no - 1]
         ch_out_choice.checking_out()
 
+        save_to_file()
+
     if option == 2:
 
         display_checked_out_tables()
@@ -62,8 +83,9 @@ while True:
             print(f"\n**Pool table {check_in_no} is curently available**")
         ch_in_choice = pool_tables_arr[check_in_no - 1]
         ch_in_choice.checking_in()
+        ch_in_choice.display_min_played()
 
-        
+        save_to_file()
 
     if option == 3: 
 
